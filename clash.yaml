@@ -1,0 +1,12 @@
+proxies:
+  - name: Firebase
+    type: vmess
+    server: classification-villa-accompanying-advertise.trycloudflare.com
+    port: 443
+    uuid: d9b0f4d3-0a7b-4a4e-b2f1-4e0eeb36c243
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /clash
