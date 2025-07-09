@@ -1,5 +1,5 @@
 proxies:
-  - name: "SweetPotatoYee FREE"
+  - name: "SweetPotatoYee_PRO"
     type: vmess
     server: logistics-insurance-pulling-curve.trycloudflare.com
     port: 443
@@ -17,7 +17,7 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - Cloudflare-Xray
+      - SweetPotatoYee_PRO
 
 rules:
   - MATCH,Proxy
