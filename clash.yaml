@@ -1,7 +1,7 @@
 proxies:
   - name: "SweetPotatoYee_PRO"
     type: vmess
-    server: agreement-amounts-wiki-qualifying.trycloudflare.com
+    server: limited-rm-curtis-mailman.trycloudflare.com
     port: 443
     uuid: d9b0f4d3-0a7b-4a4e-b2f1-4e0eeb36c243
     alterId: 0
@@ -11,7 +11,7 @@ proxies:
     ws-opts:
       path: "/clash"
       headers:
-        Host: agreement-amounts-wiki-qualifying.trycloudflare.com
+        Host: limited-rm-curtis-mailman.trycloudflare.com
 
 proxy-groups:
   - name: "Proxy"
